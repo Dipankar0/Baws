@@ -19,6 +19,9 @@ const Footer = props => {
           >
             f
           </a>
+          <Link to='/termsandconditions' className='linked'>
+            Terms
+          </Link>
         </div>
       </footer>
     </Fragment>
