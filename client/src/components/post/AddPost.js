@@ -119,7 +119,8 @@ const AddPost = ({ addPost, history, auth: { isAuthenticated } }) => {
           </div>
           <div className='form-group'>
             <select name='thana' value={thana} onChange={e => onChange(e)}>
-              <option value='0'>* থানা</option>
+              <option value='0'>* Select</option>
+              <option value='Gopalganj'>Gopalganj</option>
               <option value='Adabar'>Adabar</option>
               <option value='Azampur'>Azampur</option>
               <option value='Badda'>Badda</option>

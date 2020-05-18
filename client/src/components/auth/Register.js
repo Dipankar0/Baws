@@ -154,8 +154,8 @@ const Register = ({ setAlert, register, isAuthenticated, history }) => {
             </div>
             <div className='form-group'>
               <select name='thana' value={thana} onChange={e => onChange(e)}>
-                <option value='0'>* থানা</option>
-                <option value='Adabar'>Adabar</option>
+                <option value='0'>* Select</option>
+                <option value='Gopalganj'>Gopalganj</option>
                 <option value='Azampur'>Azampur</option>
                 <option value='Badda'>Badda</option>
                 <option value='Bangsal'>Bangsal</option>
@@ -201,7 +201,7 @@ const Register = ({ setAlert, register, isAuthenticated, history }) => {
                 <option value='Vatara'>Vatara</option>
                 <option value='Wari'>Wari</option>
               </select>
-              <small className='form-text'>Please select correctly</small>
+              <small className='form-text'>আপনার স্থান সনাক্ত করুন</small>
             </div>
             <div>
               <small className='form-text'>

@@ -105,7 +105,8 @@ const AddApplication = ({
                     value={thana}
                     onChange={e => onChange(e)}
                   >
-                    <option value='0'>* থানা</option>
+                    <option value='0'>* Select</option>
+                    <option value='Gopalganj'>Gopalganj</option>
                     <option value='Adabar'>Adabar</option>
                     <option value='Azampur'>Azampur</option>
                     <option value='Badda'>Badda</option>
