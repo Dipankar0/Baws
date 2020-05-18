@@ -73,7 +73,7 @@ const Navbar = ({
       </div>
       <ul>
         <li>
-          <Link to='/posts'>Applications</Link>
+          <Link to='/newApplication'>Applications</Link>
         </li>
         <li>
           <Link to='/needer'>Needer</Link>
