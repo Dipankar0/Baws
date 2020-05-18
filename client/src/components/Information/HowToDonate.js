@@ -20,7 +20,7 @@ const HowToDonate = props => {
             className='text-deep lead'
             style={{ textAlign: 'center', fontSize: '2em', color: '#ecf0f1' }}
           >
-            রক্ত দাতা (Blood Donor) হওয়ার নিয়মাবলীঃ-
+            রক্ত দাতা (Blood Donor) হওয়ার নিয়মাবলীঃ
           </Card.Title>
           <Card.Text style={{ color: '#ecf0f1' }}>
             কিছু শর্ত রয়েছে যা কোনও ব্যক্তিকে অস্থায়ী বা স্থায়ীভাবে রক্তদান
