@@ -2,7 +2,6 @@ import React, { Fragment, useEffect } from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
-import Spinner from '../layout/Spinner';
 import ProfileAbout from './ProfileAbout';
 import { getMyProfile } from '../../actions/profile';
 

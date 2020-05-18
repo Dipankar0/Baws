@@ -10,6 +10,7 @@ import Login from './components/auth/Login';
 import Needer from './components/auth/Needer';
 import Alert from './components/layout/Alert';
 import Home from './components/layout/Home';
+import Footer from './components/layout/Footer';
 
 import HowToDonate from './components/Information/HowToDonate';
 import HowToGet from './components/Information/HowToGet';

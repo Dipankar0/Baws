@@ -87,12 +87,19 @@
   --firm-color: #2471a3;
   --white-color: #ecf0f1;
   --red-color: #fb0444;
-  --pest-color: #04d9fb;
+  --pest-color: #008080;
   --primary-color: #1bc5df;
   --dark-color: #34495e;
   --light-color: #f4f4f4;
   --danger-color: #dc3545;
   --success-color: #28a745;
+
+  --dk-blue: #1e83ae;
+  --blue: #3d5b94;
+  --light-blue: #3dacdd;
+  --green: #6dcd9a;
+  --social-size: 1.2em;
+  --social-width: 30%;
 }
 
 * {
@@ -570,6 +577,53 @@ button {
   .alert {
     margin-top: 5em;
   }
+}
+
+footer {
+  width: 100%;
+  display: inline-block;
+  margin-top: 5em;
+  margin-bottom: 0.7em;
+  height: 30px;
+}
+.social {
+  width: 100%;
+}
+.social a {
+  float: left;
+  line-height: 50px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+.social a :hover {
+  background-color: #222;
+}
+
+.linked {
+  background-color: var(--dk-blue);
+  font-size: var(--social-size);
+  width: var(--social-width);
+}
+
+.face {
+  background-color: var(--blue);
+  font-size: var(--social-size);
+  width: var(--social-width);
+}
+
+.tweet {
+  background-color: var(--light-blue);
+  font-size: 0.8em;
+  width: var(--social-width);
+}
+
+.support {
+  background-color: var(--green);
+  font-size: 0.8em;
+  width: 40%;
 }
 
 /* Footer Style*/

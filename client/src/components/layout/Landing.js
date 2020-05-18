@@ -3,15 +3,7 @@ import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import img from '../../img/landing.jpeg';
-import {
-  Jumbotron,
-  Image,
-  Card,
-  Button,
-  Container,
-  Row,
-  Col
-} from 'react-bootstrap';
+import { Image, Card } from 'react-bootstrap';
 
 const Landing = ({ auth: { isAuthenticated } }) => {
   return (

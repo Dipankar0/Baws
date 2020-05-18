@@ -3,13 +3,7 @@ import { setAlert } from './alert';
 import { loadNeeder } from './auth';
 import { getMyPosts } from './post';
 
-import {
-  UPDATE_PROFILE,
-  GET_PROFILES,
-  GET_PROFILE,
-  PROFILE_ERROR,
-  CLEAR_PROFILE
-} from './types';
+import { GET_PROFILES, GET_PROFILE, PROFILE_ERROR } from './types';
 
 export const createProfile = (formData, history, edit) => async dispatch => {
   try {

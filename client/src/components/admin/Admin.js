@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 
 const Admin = ({ auth: { user } }) => {
-  const email = user && user.email;
   return (
     <Fragment>
       {user && user.email === 'bhadrad4@gmail.com' && (

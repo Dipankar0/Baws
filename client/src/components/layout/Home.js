@@ -10,6 +10,7 @@ import {
   Row,
   Col
 } from 'react-bootstrap';
+import Footer from './Footer';
 
 const Home = props => {
   return (
@@ -71,6 +72,7 @@ const Home = props => {
           </p>
         </div>
       </div>
+      <Footer />
     </Fragment>
   );
 };
